@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void resetCounterCorrectAnswers(){
+    public void resetCorrectAnswersCount(){
         correctAnswersCount = 0;
     }
 
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(MainActivity.this, "Correct Answers: " + correctAnswersCount + "/5",
                 Toast.LENGTH_LONG).show();
-        resetCounterCorrectAnswers();
+        resetCorrectAnswersCount();
     }
 
 }
