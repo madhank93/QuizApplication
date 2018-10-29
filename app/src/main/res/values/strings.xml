@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Quiz Application</string>
+
+    <!-- Question format style -->
+    <style name="QuestionTextStyle" >
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <!-- Radio button format style -->
+    <style name="RadioButtonStyle" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <!-- First Question, Correct answer - 1(b) - The prime minister. -->
+    <string name="Question_1">1. In India, who heads the Department of Space?</string>
+    <string name="Ques_choice_1a">The president.</string>
+    <string name="Ques_choice_1b">The prime minister.</string>
+    <string name="Ques_choice_1c">The defence minister.</string>
+
+    <!-- Second Question, Correct answer - 2(a) - Karl Marx. -->
+    <string name="Question_2">2. Who wrote Das Kapital?</string>
+    <string name="Ques_choice_2a">Karl Marx.</string>
+    <string name="Ques_choice_2b">Friedrich Engels.</string>
+    <string name="Ques_choice_2c">Leon Trotsky.</string>
+
+    <!-- Third Question, Correct answer - 3(a) - Thriller by Michael Jackson. -->
+    <string name="Question_3">3. Which pop album is the best selling of all time?</string>
+    <string name="Ques_choice_3a">Thriller by Michael Jackson.</string>
+    <string name="Ques_choice_3b">The Beatles by The Beatles.</string>
+    <string name="Ques_choice_3c">Purple Rain by Prince and The Revolution.</string>
+
+    <!-- Fourth Question, Correct answer 4(c) - Steven Spielberg. -->
+    <string name="Question_4">4. Who directed the epic historical drama Schindler\'s List in 1993?</string>
+    <string name="Ques_choice_4a">James Cameron.</string>
+    <string name="Ques_choice_4b">Martin Scorsese.</string>
+    <string name="Ques_choice_4c">Steven Spielberg.</string>
+
+    <!-- Fifth Question, Correct answer 5(b) - Joe Frazier. -->
+    <string name="Question_5">5. Which boxer inflicted Muhammad Ali\'s first defeat in professional boxing?</string>
+    <string name="Ques_choice_5a">Rocky Marciano.</string>
+    <string name="Ques_choice_5b">Joe Frazier.</string>
+    <string name="Ques_choice_5c">Joe Louis.</string>
+
+    <!-- Button name -->
+
+    <string name="submit_btn">Submit</string>
+
+</resources>
